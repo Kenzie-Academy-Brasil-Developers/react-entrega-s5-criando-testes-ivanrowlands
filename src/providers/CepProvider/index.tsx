@@ -61,7 +61,6 @@ export const LocateCepProvider = ({ children }: ILocationProps) => {
     setCepNumber(cepNumber);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
   return (
     <LocateCepContext.Provider
       value={{ ceps, setCepNumber, cepNumber, handleSearch, setCeps }}
